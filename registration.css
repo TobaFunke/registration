@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+    overflow: hidden;
+}
+
+.flex-two {
+    display: flex;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.pic-side {
+    width: 50%;
+    height: 400px;
+}
+
+.form-container {
+    width: 50%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 560px;
+    padding: 40px;
+    padding-top: 1%;
+    background-color: whitesmoke;
+    position: relative;
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content {
+    width: 80%;
+    padding: 1%;
+    text-align: left;
+    font-size: larger;
+}
+
+.flex-it {
+    display: flex;
+}
+
+input[type="text"],
+[type="date"] {
+    width: 80%;
+    margin-bottom: 2%;
+    padding: 5%;
+    border-style: outset;
+    cursor: pointer;
+}
+
+input[type="color"] {
+    width: 30%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+select {
+    width: 80%;
+    margin-bottom: 2%;
+    padding: 5%;
+    border-style: outset;
+    cursor: pointer;
+}
+
+.bottom {
+    position: relative;
+}
+
+.submit {
+    width: 20%;
+    padding: 2%;
+    font-weight: bolder;
+    border-style: outset;
+    background-color: rgb(100, 124, 52);
+    color: honeydew;
+    cursor: pointer;
+}

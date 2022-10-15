@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.homepg {
+    position: relative;
+}
+
+.bckimg {
+    height: 100vh;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.backimg {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    transform: translate(-30%, -50%);
+}
+
+.h2 {
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 75px;
+    color: black;
+}
+
+a {
+    background: #FFFFFF;
+    margin-top: 5px;
+    transform: translate(-30%, -50%);
+}
+
+button {
+    font-size: x-large;
+    border-radius: 2px;
+    width: 250px;
+    height: 80px;
+    top: 450px;
+}
+
+.main-button {
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    transform: translate(-30%, -50%);
+}

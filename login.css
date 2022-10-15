@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+    overflow: hidden;
+}
+
+.flex-two {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pic-side {
+    width: 50%;
+    height: 100%;
+}
+
+.form-container {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    padding-top: 1%;
+    background-color: whitesmoke;
+    position: relative;
+    text-align: center;
+}
+
+.content {
+    width: 80%;
+    padding: 5%;
+    margin: 5%;
+    text-align: left;
+    font-size: larger;
+}
+
+input[type="text"] {
+    width: 70%;
+    margin: 2%;
+    padding: 4%;
+    border-style: outset;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.checkbox {
+    text-align: left;
+    padding: 0.5%;
+}
+
+.submit {
+    width: 20%;
+    padding: 2%;
+    font-weight: bolder;
+    border-style: outset;
+    background-color: rgb(100, 124, 52);
+    color: honeydew;
+    cursor: pointer;
+}
+
+.not-registered {
+    padding: 2.3%;
+}
